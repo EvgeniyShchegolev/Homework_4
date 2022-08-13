@@ -29,7 +29,7 @@ join song s on sc.song_id = s.id
 join album a on s.album_id = a.id 
 join musician_album ma on a.id = ma.album_id 
 join musician m on ma.musician_id = m.id 
-where name_musician ilike 'ария'
+where name_musician ilike 'Р°СЂРёСЏ'
 group by name_collection; 
 
 -- 6)
